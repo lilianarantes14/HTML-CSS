@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio da Tabela</title>
+    <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        table{
+            width: 300px;
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 2px solid black;
+            padding: 10px   ;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+
+        }
+        col.red{
+            background-color: burlywood;
+            
+        }
+        col.blue{
+            background-color: cyan;
+        }
+        col.violet{
+            background-color: darkmagenta;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela</h1>
+    <table>
+        <colgroup>
+        <col class="red">
+        <col class="blue" span="2">
+        <col class="violet">
+    </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Lilian</td>
+            <td>31</td>
+            <td>F</td>
+            <td>Programadora</td>
+        </tr><tr>
+            <td>Lilian</td>
+            <td>31</td>
+            <td>F</td>
+            <td>Programadora</td>
+        </tr><tr>
+            <td>Lilian</td>
+            <td>31</td>
+            <td>F</td>
+            <td>Programadora</td>
+        </tr><tr>
+            <td>Lilian</td>
+            <td>31</td>
+            <td>F</td>
+            <td>Programadora</td>
+        </tr><tr>
+            <td>Lilian</td>
+            <td>31</td>
+            <td>F</td>
+            <td>Programadora</td>
+        </tr>
+
+    </table>
+</body>
+</html>
